@@ -12,9 +12,14 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  background: red;
 }
 
 aside {
   flex: 1;
   overflow: auto;
+}
+
+.logo {
+  font-size: 32px;
 }
