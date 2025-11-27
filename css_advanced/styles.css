@@ -1,12 +1,67 @@
 a {
-    font-family: "source sans pro", sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: white;
+  font-family: 'source sans pro', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
 }
 
 h1 {
-    font-family: "source sans pro", sans-serif;
-    font-weight: bold;
-    font-size: 120px;
+  /* display: flex;
+  justify-content: center; */
+  font-family: 'source sans pro', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  color: white;
+}
+
+span {
+
+  font-family: 'source sans pro', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+button {
+  font-family: 'source sans pro', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #c271ff;
+  color: white;
+  border-radius: 22px;
+  border: none;
+  padding: 20px 14px;
+}
+
+body {
+  background-image: url('../css_advanced/assets/Object.png');
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-family: 'source sans pro', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+}
+
+p {
+  font-family: 'source sans pro', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: white;
+  line-height: 24px;
+}
+
+h2 span {
+  font-weight: bold;
+  color: #c271ff;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 32px;
+  color: white;
 }
