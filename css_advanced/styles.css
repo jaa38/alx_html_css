@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 a {
   font-family: 'source sans pro', sans-serif;
   font-weight: bold;
@@ -13,6 +17,7 @@ h1 {
   font-size: 120px;
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 .hero {
@@ -24,7 +29,6 @@ h1 {
   font-weight: bold;
   font-size: 120px;
   color: white;
-  margin-bottom: 20px;
 }
 
 .hero span {
@@ -37,8 +41,8 @@ h1 {
 }
 
 .hero button {
-  display: block;        /* forces button to a new line */
-  margin: 30px auto 0;   /* centers it */
+  display: block; /* forces button to a new line */
+  margin: 30px auto 0; /* centers it */
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -50,38 +54,11 @@ h1 {
   cursor: pointer;
 }
 
-/* .heroText span{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
-/* span {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: 'source sans pro', sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  color: white;
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  font-family: 'source sans pro', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  background-color: #c271ff;
-  color: white;
-  border-radius: 22px;
-  border: none;
-  padding: 20px 14px;
-} */
-
-body {
-  background-image: url('../css_advanced/assets/Object.png');
-  background-repeat: no-repeat;
+.heroSection {
+  background-image: url('./assets2/Object.png');
+  background-size: cover; /* makes image fill the section */
+  background-repeat: no-repeat; /* prevents repeating */
+  background-position: center; /* centers the image */
 }
 
 h3 {
@@ -107,6 +84,9 @@ h2 strong {
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'source sans pro', sans-serif;
   font-weight: 100;
   font-size: 32px;
   color: white;
@@ -121,3 +101,46 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
+.profiles {
+  margin-top: 168px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
+.bruceWalters {
+  border-radius: 120px;
+  height: auto;
+}
+
+.section2 {
+  background-color: #c271ff;
+  display: flex; /* puts the two divs next to each other */
+  justify-content: center; /* centers them horizontally */
+  align-items: center; /* vertically aligns them */
+  gap: 53px;
+  padding: 40px 0;
+  height: 359px;
+}
+
+blockquote {
+  font-family: 'source sans pro', sans-serif;
+  color: white;
+  font-weight: 500px;
+  margin: 0;
+}
+
+.section3 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #071629;
+  text-align: center;
+}
+
+.section3 h2 strong {
+  color: #c271ff; /* your purple color */
+}
+
