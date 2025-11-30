@@ -320,7 +320,6 @@ footer {
   background-color: #071629;
 }
 
-
 .iconsLogos {
   padding: 95px 165px;
   display: flex;
@@ -351,4 +350,26 @@ footer {
   text-align: center;
   padding-bottom: 98px;
   margin: 0;
+}
+
+.playCard {
+  position: relative;
+  width: 255px;
+  height: 154px;
+}
+
+.playCard .smilesType {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playCard .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  z-index: 10;
 }
